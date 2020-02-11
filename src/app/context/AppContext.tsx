@@ -32,7 +32,7 @@ const AppContext = createContext<AppContext>({
 const AppContextProvider = ({ children }) => {
     const [searchResult, setSearchResult] = useState([])
     const [coordinate, setCoordinate] = useState({ lat: 48.8534, lng: 2.3488 })
-    const [zoom, setZoom] = useState(10)
+    const [zoom, setZoom] = useState(6)
 
     /**
      * Use to check if the result exist on the local storage then fetch new result to add / update it
