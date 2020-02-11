@@ -1,0 +1,15 @@
+.SearchList {
+    overflow: auto;
+    max-height: 90vh;
+    border-radius: 0px;
+}
+
+.SearchListItem {
+    cursor: pointer;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+    margin: 2px 0px 2px 0px;
+}
+.SearchListItem:hover{
+    background-color: #e3e3e3;
+}

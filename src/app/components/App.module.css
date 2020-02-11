@@ -1,0 +1,9 @@
+.MainContainer {
+    height: 90vh;
+    max-height: 90vh;
+    width: 100%;
+}
+.MainRow {
+    height: 100%;
+    max-height: 90vh;
+}
