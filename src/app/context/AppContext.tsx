@@ -1,6 +1,6 @@
-import React, { createContext, useState } from 'react'
-import { getLocalStorageByKey, hasKey, addItemToLocalStorage } from '../util/localStorageUtil';
-import fetchLocation from '../api/fetchLocation'
+import React, { createContext, useState } from 'react';
+import fetchLocation from '../api/fetchLocation';
+import { addItemToLocalStorage, getLocalStorageByKey, hasKey } from '../util/localStorageUtil';
 type Coordinate = {
     lat: number,
     lng: number
@@ -34,11 +34,14 @@ const AppContextProvider = ({ children }) => {
     const [coordinate, setCoordinate] = useState({ lat: 48.8534, lng: 2.3488 })
     const [zoom, setZoom] = useState(10)
 
+    /**
+     * Use to check if the result exist on the local storage then fetch new result to add / update it
+     * @param searchTerm keyword to search
+     */
     const getResult = (searchTerm: string) => {
         if (hasKey(searchTerm.toLowerCase())) {
             setSearchResult(getLocalStorageByKey(searchTerm.toLowerCase()))
             console.log('from local storage');
-
         }
         fetchLocation(searchTerm)
             .then(resp => resp.json())
@@ -48,13 +51,14 @@ const AppContextProvider = ({ children }) => {
             })
             .catch(err => console.log(err));
     }
-    return(
-        <AppContext.Provider value ={{searchResult, getResult, coordinate, setCoordinate, zoom, setZoom}}>
+    
+    return (
+        <AppContext.Provider value={{ searchResult, getResult, coordinate, setCoordinate, zoom, setZoom }}>
             {children}
         </AppContext.Provider>
     )
 }
 
 
-export {AppContext, AppContextProvider}
+export { AppContext, AppContextProvider };
 

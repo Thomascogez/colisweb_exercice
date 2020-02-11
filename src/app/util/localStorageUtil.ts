@@ -2,7 +2,7 @@
 const LOCALSTORAGE_KEY = "LOCATION"; // key of the stored local storage
 
 /**
- * get json object pf the stored data from the local storage
+ * get json object of the stored data from the local storage
  */
 const getLocalStorage = (): Object => {
     let localStorageData = localStorage.getItem(LOCALSTORAGE_KEY) || "";
@@ -16,8 +16,8 @@ const getLocalStorage = (): Object => {
 
 /**
  * Method use to add new key to the stored data from the local storage
- * @param key 
- * @param item 
+ * @param key key to add to the stored object
+ * @param item data to store
  */
 const addItemToLocalStorage = (key: string, item: any, ): void => {
     let localStorageData: object = getLocalStorage() || {};
@@ -41,6 +41,7 @@ const hasKey = (key: string): boolean => {
 const getLocalStorageByKey = (key: string) => {
     return (getLocalStorage().hasOwnProperty(key)) ? getLocalStorage()[key] : null;
 }
+
 
 export { addItemToLocalStorage, hasKey, getLocalStorageByKey };
 

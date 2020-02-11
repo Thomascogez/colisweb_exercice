@@ -1,6 +1,6 @@
 import { GoogleApiWrapper, InfoWindow, Map as GMap, Marker } from 'google-maps-react';
-import React, { useContext, useEffect, useState } from 'react';
-import {AppContext} from '../../context/AppContext';
+import React, { useContext, useState } from 'react';
+import { AppContext } from '../../context/AppContext';
 
 
 const Map = (props: { google: any }) => {
@@ -15,6 +15,7 @@ const Map = (props: { google: any }) => {
         setSelectedMarkerInfo(props.name)
         setSelectedMarker(marker);
         setVisibleMarker(true);
+        appContext.setCoordinate(props.position)
     }
 
     const onInfoWindowClose = () => {
@@ -26,14 +27,14 @@ const Map = (props: { google: any }) => {
         <GMap
             google={google}
             zoom={appContext.zoom}
-            initialCenter={{ 
-                lat: appContext.coordinate.lat, 
+            initialCenter={{
+                lat: appContext.coordinate.lat,
                 lng: appContext.coordinate.lng
-            }} 
+            }}
             center={{
                 lat: appContext.coordinate.lat,
                 lng: appContext.coordinate.lng
-              }}
+            }}
         >
             {appContext.searchResult.map(result => (
 
@@ -59,5 +60,5 @@ const Map = (props: { google: any }) => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyBOSz0bLa68-jJ5rOPG4_VbLGfaNnsrvSY'
+    apiKey: '' // Api key here
 })(Map);

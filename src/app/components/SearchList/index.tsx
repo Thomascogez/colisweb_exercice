@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ListGroup, ListGroupItem } from 'shards-react';
-import {AppContext} from '../../context/AppContext';
+import { AppContext } from '../../context/AppContext';
 import style from './SearchList.module.css';
 const SearchList = () => {
     const appContext = useContext(AppContext);

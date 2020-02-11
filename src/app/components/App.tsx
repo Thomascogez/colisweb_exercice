@@ -1,17 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Col, Container, Row } from 'shards-react';
 import "shards-ui/dist/css/shards.min.css";
-import fetchLocation from '../api/fetchLocation';
-import {AppContextProvider} from '../context/AppContext';
-import { addItemToLocalStorage, getLocalStorageByKey, hasKey } from '../util/localStorageUtil';
+import { AppContextProvider } from '../context/AppContext';
 import style from './App.module.css';
 import NavBar from './layout/NavBar/';
 import Map from './Map';
 import SearchList from './SearchList';
 
 const App = () => {
-  
+
   return (
     <AppContextProvider>
       <NavBar />
