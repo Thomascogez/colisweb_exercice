@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/colisweb_exercice/static/css/main.02c44a7a.chunk.css",
-    "main.js": "/colisweb_exercice/static/js/main.d634b876.chunk.js",
-    "main.js.map": "/colisweb_exercice/static/js/main.d634b876.chunk.js.map",
+    "main.js": "/colisweb_exercice/static/js/main.ebc6f5a2.chunk.js",
+    "main.js.map": "/colisweb_exercice/static/js/main.ebc6f5a2.chunk.js.map",
     "runtime-main.js": "/colisweb_exercice/static/js/runtime-main.f32a7397.js",
     "runtime-main.js.map": "/colisweb_exercice/static/js/runtime-main.f32a7397.js.map",
     "static/css/2.95afd4a9.chunk.css": "/colisweb_exercice/static/css/2.95afd4a9.chunk.css",
     "static/js/2.c4675af6.chunk.js": "/colisweb_exercice/static/js/2.c4675af6.chunk.js",
     "static/js/2.c4675af6.chunk.js.map": "/colisweb_exercice/static/js/2.c4675af6.chunk.js.map",
     "index.html": "/colisweb_exercice/index.html",
-    "precache-manifest.4295cb43f360dcc434f3d0db078b56b4.js": "/colisweb_exercice/precache-manifest.4295cb43f360dcc434f3d0db078b56b4.js",
+    "precache-manifest.d28aea5d733fc201b55bd3b091a18396.js": "/colisweb_exercice/precache-manifest.d28aea5d733fc201b55bd3b091a18396.js",
     "service-worker.js": "/colisweb_exercice/service-worker.js",
     "static/css/2.95afd4a9.chunk.css.map": "/colisweb_exercice/static/css/2.95afd4a9.chunk.css.map",
     "static/css/main.02c44a7a.chunk.css.map": "/colisweb_exercice/static/css/main.02c44a7a.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.95afd4a9.chunk.css",
     "static/js/2.c4675af6.chunk.js",
     "static/css/main.02c44a7a.chunk.css",
-    "static/js/main.d634b876.chunk.js"
+    "static/js/main.ebc6f5a2.chunk.js"
   ]
 }
