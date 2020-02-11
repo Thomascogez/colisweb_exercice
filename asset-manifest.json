@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/colisweb_exercice/static/css/main.02c44a7a.chunk.css",
+    "main.js": "/colisweb_exercice/static/js/main.d634b876.chunk.js",
+    "main.js.map": "/colisweb_exercice/static/js/main.d634b876.chunk.js.map",
+    "runtime-main.js": "/colisweb_exercice/static/js/runtime-main.f32a7397.js",
+    "runtime-main.js.map": "/colisweb_exercice/static/js/runtime-main.f32a7397.js.map",
+    "static/css/2.95afd4a9.chunk.css": "/colisweb_exercice/static/css/2.95afd4a9.chunk.css",
+    "static/js/2.c4675af6.chunk.js": "/colisweb_exercice/static/js/2.c4675af6.chunk.js",
+    "static/js/2.c4675af6.chunk.js.map": "/colisweb_exercice/static/js/2.c4675af6.chunk.js.map",
+    "index.html": "/colisweb_exercice/index.html",
+    "precache-manifest.4295cb43f360dcc434f3d0db078b56b4.js": "/colisweb_exercice/precache-manifest.4295cb43f360dcc434f3d0db078b56b4.js",
+    "service-worker.js": "/colisweb_exercice/service-worker.js",
+    "static/css/2.95afd4a9.chunk.css.map": "/colisweb_exercice/static/css/2.95afd4a9.chunk.css.map",
+    "static/css/main.02c44a7a.chunk.css.map": "/colisweb_exercice/static/css/main.02c44a7a.chunk.css.map",
+    "static/js/2.c4675af6.chunk.js.LICENSE.txt": "/colisweb_exercice/static/js/2.c4675af6.chunk.js.LICENSE.txt",
+    "static/media/search-24px.svg": "/colisweb_exercice/static/media/search-24px.a88f7755.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f32a7397.js",
+    "static/css/2.95afd4a9.chunk.css",
+    "static/js/2.c4675af6.chunk.js",
+    "static/css/main.02c44a7a.chunk.css",
+    "static/js/main.d634b876.chunk.js"
+  ]
+}
